@@ -1,43 +1,125 @@
 <!DOCTYPE html>
 <html lang='cs'>
-  <head>
-    <title>seznamy</title>
+   <head>
+    <title>Seznamy</title>
     <meta charset='utf-8'>
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 0;
+        padding: 30px 10px;
+        background-color: #ffffff;
+      }
+
+
+      nav {
+        background-color: #1e3a5f;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav a {
+        display: block;
+        padding: 14px 24px;
+        color: white;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: #2f5a8f;
+      }
+
+
+      main {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: white;
+      }
+
+      main p {
+        font-weight: bold;
+        margin: 20px 0 8px 0;
+      }
+
+      main p:first-child {
+        margin-top: 0;
+      }
+
+      main ul, main ol {
+        line-height: 1.8;
+        margin: 0 0 20px 0;
+      }
+
+      dl {
+        background-color: #eef2f7;
+        border-left: 4px solid #1e3a5f;
+        padding: 12px 16px;
+        margin: 20px 0;
+      }
+
+      dt {
+        font-weight: bold;
+      }
+
+      dd {
+        margin: 6px 0 0 0;
+        line-height: 1.6;
+      }
+    </style>
   </head>
   <body>
 
- <h1>Seznamy</h1>
+    <h1>Seznamy</h1>
 
- <nav>
-  <a href="index.html">Úvod</a><br>
-   <a href="tabulka.html">Tabulka</a><br>
-   <a href="seznamy.html">Seznamy</a><br>
-  </nav> 
-  <main>
-  Programovací jazyky na naší škole:
-  <ul>
-  <li>Scratch</li>
-  <li>JavaScript</li>
-  <li>PHP</li>
-  <li>Python</li>
-  </ul>
-  
-  <dl>
-  <dt>Programovací jazyk je</dt>
-  <dd>prostředek pro zápis algoritmů, jež mohou být provedeny na počítaci.
-  Zápis algoritmu ve zvoleném programovacím jazyce se nazývá program</dd>
-  </dl>
-  Seznam jazyků podle počtu mluvčích:
-  <ol>
-  <li>Čínština</li>
-  <li>Španělština</li>
-  <li>Angličtina</li>
-  <li>Arabština</li>
-  <li>Hindština</li>
-  </ol>
+    <nav>
+      <ul>
+        <li><a href="index.html">Úvod</a></li>
+        <li><a href="tabulka.html">Tabulka</a></li>
+        <li><a href="seznamy.html">Seznamy</a></li>
+        <li><a href="https://www.cmgpv.cz/">CMG</a></li>
+      </ul>
+    </nav>
 
+    <main>
+      <p>Programovací jazyky na naší škole:</p>
+      <ul>
+        <li>Scratch</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>Python</li>
+      </ul>
+
+      <dl>
+        <dt>Programovací jazyk je</dt>
+        <dd>prostředek pro zápis algoritmů, jež mohou být provedeny na počítači.
+        Zápis algoritmu ve zvoleném programovacím jazyce se nazývá program</dd>
+      </dl>
+
+      <p>Seznam jazyků podle počtu mluvčích:</p>
+      <ol>
+        <li>Čínština</li>
+        <li>Španělština</li>
+        <li>Angličtina</li>
+        <li>Arabština</li>
+        <li>Hindština</li>
+      </ol>
     </main>
- 
+
   </body>
 </html>
