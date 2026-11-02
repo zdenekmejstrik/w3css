@@ -3,40 +3,130 @@
   <head>
     <title>Tabulka</title>
     <meta charset='utf-8'>
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 0;
+        padding: 30px 10px;
+        background-color: #ffffff;
+      }
+
+
+      nav {
+        background-color: #1e3a5f;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav a {
+        display: block;
+        padding: 14px 24px;
+        color: white;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: #2f5a8f;
+      }
+
+
+      main {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: white;
+        overflow-x: auto;
+      }
+
+
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 0.9em;
+      }
+
+      th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+        vertical-align: middle;
+        line-height: 1.4;
+      }
+
+      th {
+        background-color: #eef2f7;
+        text-align: center;
+        width: 100px;
+      }
+
+      th img {
+        height: 60px;
+        width: auto;
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
 
-  <h1>Programy používané při tvorbě stránek</h1>
- 
-  <nav>
-  <a href="index.html">Úvod</a><br>
-   <a href="tabulka.html">Tabulka</a><br>
-   <a href="seznamy.html">Seznamy</a><br>
-  </nav> 
-  <main>
-  <table border=1 width=600>
-   <tr><th><img src="html.png" height="100"></th>
-       <td>Hypertext Markup Language je v informatice název značkovacího jazyka 
-        používaného pro tvorbu webových stránek, které jsou propojeny 
-        hypertextovými odkazy.</td>
-       <td>Zajišťuje obsah stránky</td></tr>
-   <tr><th><img src="css.PNG" height="100" ></th>
-       <td>Kaskádové styly je v informatice jazyk pro popis způsobu 
-          zobrazení elementů na stránkách napsaných v jazycích HTML, 
-          XHTML nebo XML.</td>
-       <td>Starají se o vzhled stránky</td></tr>
-   <tr><th><img src="php.PNG" height="80" ></th>
-       <td>PHP je skriptovací programovací jazyk. Je určený především pro 
-       programování dynamických internetových 
-       stránek a webových aplikací například ve formátu HTML, XHTML či WML.</td>
-       <td rowspan=2>Zajišťuje dynamické stránky</td></tr>
-   <tr><th><img src="js.PNG" height="100" ></th>
-       <td>JavaScript je multiplatformní, objektově orientovaný, událostmi řízený 
-        skriptovací jazyk, jehož autorem je Brendan Eich z někdejší společnosti 
-        Netscape</td>
-       </tr>
-  </table>
-  </main>
+    <h1>Programy používané při tvorbě stránek</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Úvod</a></li>
+        <li><a href="tabulka.html">Tabulka</a></li>
+        <li><a href="seznamy.html">Seznamy</a></li>
+        <li><a href="https://www.cmgpv.cz/">CMG</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <table>
+        <tr>
+          <th><img src="html.png" alt="HTML"></th>
+          <td>Hypertext Markup Language je v informatice název značkovacího jazyka
+            používaného pro tvorbu webových stránek, které jsou propojeny
+            hypertextovými odkazy.</td>
+          <td>Zajišťuje obsah stránky</td>
+        </tr>
+        <tr>
+          <th><img src="css.PNG" alt="CSS"></th>
+          <td>Kaskádové styly je v informatice jazyk pro popis způsobu
+            zobrazení elementů na stránkách napsaných v jazycích HTML,
+            XHTML nebo XML.</td>
+          <td>Starají se o vzhled stránky</td>
+        </tr>
+        <tr>
+          <th><img src="php.PNG" alt="PHP"></th>
+          <td>PHP je skriptovací programovací jazyk. Je určený především pro
+            programování dynamických internetových
+            stránek a webových aplikací například ve formátu HTML, XHTML či WML.</td>
+          <td rowspan="2">Zajišťuje dynamické stránky</td>
+        </tr>
+        <tr>
+          <th><img src="js.PNG" alt="JavaScript"></th>
+          <td>JavaScript je multiplatformní, objektově orientovaný, událostmi řízený
+            skriptovací jazyk, jehož autorem je Brendan Eich z někdejší společnosti
+            Netscape</td>
+        </tr>
+      </table>
+    </main>
+
   </body>
 </html>
